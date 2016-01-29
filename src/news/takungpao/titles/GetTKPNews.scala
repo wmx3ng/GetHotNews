@@ -15,6 +15,7 @@ object GetTKPNews {
     getTKPNews().foreach {
       println
     }
+    //    analysisTkpPage("http://news.takungpao.com/mainland/").foreach(println)
   }
 
   //取指定页面集合;
@@ -35,7 +36,7 @@ object GetTKPNews {
     ) yield {
       //      kw
       //替换掉一些无用的标识;
-      Utils.replaceStr.foldLeft(kw)((tmp, rela) => if (tmp.contains(rela._1)) tmp.replaceAll(rela._1, rela._2) else tmp)
+      Utils.replaceStr.foldLeft(kw)((tmp, rela) => if (tmp.contains(rela._1)) tmp.replaceAll(rela._1, rela._2) else tmp).trim
     }
 
     keywords.toList
