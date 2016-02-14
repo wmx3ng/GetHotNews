@@ -9,7 +9,7 @@ object Utils {
     "网站导航", "注册", "原创", "专栏", "专题", "科技图库", "滚动", "京ICP备13049349号", "京公网安备11010102000014号")
 
   //网页标识;以此为前缀的需要过滤掉;
-  val invalidPrefix = Set("<p>", "</a></p>", "<img src", "<div class=", "<p>　　<strong>", "<b>", "<!--")
+  val invalidPrefix = Set("<p>", "</a></p>", "<img src", "<div class=", "<p>　　<strong>", "<b>", "<!--","<span style")
   //无效的网页标识符,需要替换掉;
   val replaceStr = Map("&nbsp;" -> " ", "&quot;" -> "\"", "&ldquo;" -> "\"", "&rdquo;" -> "\"")
 
