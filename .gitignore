@@ -1,4 +1,5 @@
 /META-INF
 /target
-/out
-/.idea
+/out/
+/.idea/
+.idea/misc.xml
