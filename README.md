@@ -1,0 +1,2 @@
+# GetHotNews
+This file.
