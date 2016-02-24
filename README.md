@@ -4,3 +4,4 @@ that file.
 first test.
 second test.
 thired test.
+fourth test.
