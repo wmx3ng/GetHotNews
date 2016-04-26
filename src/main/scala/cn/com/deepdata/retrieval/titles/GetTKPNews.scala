@@ -1,8 +1,8 @@
-package main.scala.takungpao.titles
+package cn.com.deepdata.retrieval.titles
 
 import java.net.URL
 
-import main.scala.util.Utils
+import cn.com.deepdata.retrieval.util.Utils
 
 import scala.io.Source
 

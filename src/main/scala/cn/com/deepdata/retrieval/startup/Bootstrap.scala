@@ -1,14 +1,14 @@
-package main.scala.main
+package cn.com.deepdata.retrieval.startup
 
 import java.io.PrintWriter
 
-import main.scala.baidu.hotpoint.GetBaiduHotPoints
-import main.scala.takungpao.titles.GetTKPNews
+import cn.com.deepdata.retrieval.hotpoint.GetBaiduHotPoints
+import cn.com.deepdata.retrieval.titles.GetTKPNews
 
 /**
   * Created by wang on 1/28/16.
   */
-object Main {
+object Bootstrap {
   def main(args: Array[String]): Unit = {
     val baiduHPs = GetBaiduHotPoints.getHotPoints()
     val tkpTitles = GetTKPNews.getTKPNews()

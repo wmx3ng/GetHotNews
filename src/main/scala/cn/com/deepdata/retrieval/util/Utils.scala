@@ -1,4 +1,6 @@
-package main.scala.util
+package cn.com.deepdata.retrieval.util
+
+
 
 /**
   * Created by wang on 1/28/16.
